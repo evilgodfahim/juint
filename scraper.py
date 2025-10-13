@@ -85,7 +85,7 @@ def scrape_jugantor_editorial():
         print(f"Error scraping website: {e}")
         return []
 
-def save_to_xml(data, filename='Editorial_news.xml'):
+def save_to_xml(data, filename='editorial_news.xml'):
     """
     Save scraped data as a valid RSS 2.0 feed
     """
